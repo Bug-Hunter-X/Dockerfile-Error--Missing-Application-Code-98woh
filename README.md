@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: forgetting to copy the application code into the image.  The initial `Dockerfile` is missing the `COPY` instruction for the Python script, leading to a runtime error. The `Dockerfile-fixed` provides the corrected version.
